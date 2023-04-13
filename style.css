@@ -5,7 +5,7 @@
 
 .cabeçalho {
     background-image: linear-gradient(#7459AE, #EBC7E6);
-    color: #FFFFFF;
+    color: #7459AE;
     display: flex;
     justify-content: space-around;
 }
@@ -19,5 +19,24 @@
     font-size: 36px;
     display: inline-block;
     margin: 5px;
+    padding-top: 20px;
+}
+
+.formadores {
+    background-image: linear-gradient(#EBC7E6, #BFACE2);
+    color: #7459AE;
+    width: 1440px;
+    height: 300px;
+}
+
+.formadores-título {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 64px;
+}
+
+.formadores-parágrafo {
+    text-align: center;
+    font-size: 36px;
     padding-top: 20px;
 }
