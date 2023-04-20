@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .cabeçalho {
     background-image: linear-gradient(#7459AE, #EBC7E6);
     color: #7459AE;
@@ -20,12 +24,13 @@
     display: inline-block;
     margin: 5px;
     padding-top: 20px;
+    font-weight: bold;
+    
 }
 
 .formadores {
     background-image: linear-gradient(#EBC7E6, #BFACE2);
     color: #7459AE;
-    width: 1440px;
     height: 300px;
 }
 
@@ -39,4 +44,32 @@
     text-align: center;
     font-size: 36px;
     padding-top: 20px;
+}
+
+.galeria {
+    background-image: linear-gradient(#BFACE2,#7459AE);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeria-foto {
+    margin-top: 100px;
+    width: 450px;
+    height: 300px;
+    border-radius: 32px;
+    
+}
+
+.galeria-titulo {
+    text-align: center;
+    font-size: 48px;
+    color: #7459AE;
+}
+
+.legenda {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
 }
