@@ -48,28 +48,55 @@ body {
 
 .galeria {
     background-image: linear-gradient(#BFACE2,#7459AE);
-    height: 500px;
-    display: flex;
-    justify-content: space-around;
+    height: 1600px;
+    text-align: center;
 }
 
 .galeria-foto {
-    margin-top: 100px;
-    width: 450px;
-    height: 300px;
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
     border-radius: 32px;
     
 }
 
 .galeria-titulo {
+    padding-top: 30px;
     text-align: center;
     font-size: 48px;
     color: #7459AE;
 }
 
+.galeria-topo {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #7459AE;
+}
+
 .legenda {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
+}
+
+.galeria-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.rodape {
+    background-image: linear-gradient(#7459AE, #EBC7E6);
+    color: #7459AE;
+    text-align: center;
+    height: 150px;
+
+}
+
+.copyright {
+    padding-top: 80px;
+    font-size: 30px;
+    color: #ffffff;
 }
